@@ -1,4 +1,4 @@
-alphabet = 'zyxwvutsrqponmlkjihgfedcba'
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 special = '[@_!#$%^&*()<>?/\|}{~:]1234567890'
 keySpecial = 'abcdefghijklmnopqrstuvwxyz[@_!#$%^&*()<>?/\|}{~:]'
 newMessage = ''
