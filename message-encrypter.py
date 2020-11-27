@@ -3,7 +3,7 @@ special = '[@_!#$%^&*()<>?/\|}{~:]1234567890'
 keySpecial = 'abcdefghijklmnopqrstuvwxyz[@_!#$%^&*()<>?/\|}{~:]'
 newMessage = ''
 
-message = input('Please enter a message to encrypt: ').lower()
+message = input('Please enter a message: ').lower()
 if len(message) < 2:
     print('Message needs to be at least 2 characters, exiting program')
     exit()
@@ -13,7 +13,7 @@ if specialInMessage:
     print('Invalid character found in message, "', message, '" exiting program')
     exit()
         
-key = input('Please enter a key from 1-26: ')
+key = input('Enter a key (1-26): ')
 SpecialInMessage = [c for c in keySpecial if c in key]
 if SpecialInMessage:
     print('Invalid number found in key, exiting program')
