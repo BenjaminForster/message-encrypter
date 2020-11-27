@@ -3,7 +3,7 @@ special = '[@_!#$%^&*()<>?/\|}{~:]1234567890'
 keySpecial = 'abcdefghijklmnopqrstuvwxyz[@_!#$%^&*()<>?/\|}{~:]'
 newMessage = ''
 
-message = input('Please enter a message to decrypt: ').lower()
+message = input('Please enter a message to encrypt: ').lower()
 if len(message) < 2:
     print('Message needs to be at least 2 characters, exiting program')
     exit()
