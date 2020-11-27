@@ -20,7 +20,7 @@ if SpecialInMessage:
     exit()
 key = int(key)
 if key < 1 or key > 26:
-    print('Invalid character found in key, exiting program')
+    print('Invalid number found in key, exiting program')
     exit()
 
 for character in message:
