@@ -1,6 +1,6 @@
 print('''
 Message Encrypter
-==================''')
+──────────────────''')
 
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 special = '[@_!#$%^&*()<>?/\|}{~:]1234567890'
