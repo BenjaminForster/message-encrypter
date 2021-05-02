@@ -20,7 +20,7 @@ if specialInMessage:
 key = input('Enter a key (1-26): ')
 SpecialInMessage = [c for c in keySpecial if c in key]
 if SpecialInMessage:
-    print('Invalid number found in key, exiting program')
+    print('Invalid number found in key, "', key, '" exiting program')
     exit()
 key = int(key)
 if key < 1 or key > 26:
