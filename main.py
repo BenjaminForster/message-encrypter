@@ -2,6 +2,8 @@ print('''
 Message Encrypter
 ──────────────────''')
 
+print('Welcome to the message encrypter')
+
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 special = '[@_!#$%^&*()<>?/\|}{~:]1234567890'
 keySpecial = 'abcdefghijklmnopqrstuvwxyz[@_!#$%^&*()<>?/\|}{~:]'
